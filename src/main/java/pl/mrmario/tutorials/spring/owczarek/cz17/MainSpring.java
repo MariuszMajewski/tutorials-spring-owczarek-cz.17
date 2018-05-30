@@ -19,5 +19,9 @@ public class MainSpring {
 		System.out.println(com1.getUsersRepository().getInstanceNumber());
 		System.out.println(com2.getUsersRepository().getInstanceNumber());
 		
+		System.out.println(context.getBean("usersRepository", UsersRepository.class).getInstanceNumber());
+		System.out.println(context.getBean("usersRepository", UsersRepository.class).getInstanceNumber());
+		System.out.println(context.getBean("usersRepository", UsersRepository.class).getInstanceNumber());
+		
 			}
 }
